@@ -8,7 +8,7 @@ class birds
     public static void main(String args[])
             throws IOException
     {
-        System.out.println("Сколько птиц?");
+        System.out.println("Сколько птичек);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Boolean maxbird;
         int bird = 1;
@@ -21,7 +21,7 @@ class birds
             switch (name)
             {
                 case "5":
-                    System.out.println("5 птиц, нихуя себе");
+                    System.out.println("5 птиц");
                     bird = 5;
                     break;
                 case "4":
@@ -37,14 +37,14 @@ class birds
                     bird = 2;
                     break;
                 case "1":
-                    System.out.println("Нахуй тебе одна-то?");
+                    System.out.println("Одна?");
                     bird = 1;
                     break;
                 case "Птичка сдохла":
                     bird--;
-                    System.out.println("Поздравляю, уебан, ты убил птичку");
+                    System.out.println("Поздравляю, мудак, ты убил птичку");
                     break;
-                case "Птичий секс":
+                case "Плюс птицы":
                     bird++;
                     System.out.println("У-ля-ля, плюс птица");
                     break;
@@ -52,9 +52,9 @@ class birds
                     System.out.println(bird);
                     break;
                 default:
-                    System.out.println("Пошёл ты нахуй)");
+                    System.out.println("А вот и нет)");
                     break;
             }
         } while (maxbird);
     }
-}
+
