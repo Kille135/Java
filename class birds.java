@@ -8,7 +8,7 @@ class birds
     public static void main(String args[])
             throws IOException
     {
-        System.out.println("Сколько птиц?);
+        System.out.println("Сколько птиц?!!);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Boolean maxbird;
         int bird = 1;
