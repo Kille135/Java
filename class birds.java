@@ -9,10 +9,14 @@ class birds
             throws IOException
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         System.out.println("Сколько птичек?);
 =======
         System.out.println("Сколько птиц?!!!!);
 >>>>>>> aa364b7 (!!!!!)
+=======
+        System.out.println("Сколько птиц?!!!);
+>>>>>>> d0e038f (!!!!)
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Boolean maxbird;
         int bird = 1;
