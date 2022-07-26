@@ -21,7 +21,7 @@ class birds
             switch (name)
             {
                 case "5":
-                    System.out.println("5 птиц");
+                    System.out.println("5 птичек");
                     bird = 5;
                     break;
                 case "4":
