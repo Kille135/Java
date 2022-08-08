@@ -10,6 +10,7 @@ class birds
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         System.out.println("Сколько птичек?);
 =======
         System.out.println("Сколько птиц?!!!!);
@@ -17,6 +18,9 @@ class birds
 =======
         System.out.println("Сколько птиц?!!!);
 >>>>>>> d0e038f (!!!!)
+=======
+        System.out.println("Сколько птиц?!!);
+>>>>>>> f95636f (!!!)
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Boolean maxbird;
         int bird = 1;
